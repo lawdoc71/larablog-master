@@ -6,6 +6,7 @@ Run Artisan Commands on production:
 php artisan queue:table
 php artisan migrate
 
-php artisan optimize
+php artisan queue:work
 
+php artisan optimize
 ```

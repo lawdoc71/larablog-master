@@ -24,7 +24,7 @@
                     {{-- facebook --}}
                     {{-- @if ( site_social_links()->facebook_url ) --}}
                         <li class="list-inline-item">
-                            {{-- <a target="_blank" href="{{ site_social_links()->facebook_url }}"> --}}
+                            <a target="_blank" href="{{ site_social_links()->facebook_url }}">
                                 <i class="ti-facebook"></i>
                             </a>
                         </li>
@@ -33,29 +33,29 @@
                     {{-- twitter or X --}}
                     {{-- {{-- @if ( site_social_links()->twitter_url ) --}}
                         <li class="list-inline-item">
-                            {{-- <a target="_blank" href="{{  site_social_links()->twitter_url }}"> --}}
+                            <a target="_blank" href="{{  site_social_links()->twitter_url }}">
                                 <i class="ti-twitter-alt"></i>
                             </a>
                         </li>
                     {{-- @endif --}}
 
                     {{-- linkedin --}}
-                    {{-- @if ( site_social_links()->linkedin_url )
+                    @if ( site_social_links()->linkedin_url )
                         <li class="list-inline-item">
                             <a target="_blank" href="{{ site_social_links()->linkedin_url }}">
                                 <i class="ti-linkedin"></i>
                             </a>
                         </li>
-                    @endif --}}
+                    @endif
 
                     {{-- instagram --}}
-                    {{-- @if ( site_social_links()->instagram_url )
+                    @if ( site_social_links()->instagram_url )
                         <li class="list-inline-item">
                             <a target="_blank" href="{{ site_social_links()->instagram_url }}">
                                 <i class="ti-instagram"></i>
                             </a>
                         </li>
-                    @endif --}}
+                    @endif
 
                 </ul>
 

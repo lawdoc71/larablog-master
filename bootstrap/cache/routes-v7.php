@@ -157,7 +157,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::CIP1Y3Hpb7bsSfyM',
+            '_route' => 'generated::RkT8K28jU8FXTMtI',
           ),
           1 => NULL,
           2 => 
@@ -177,7 +177,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::EHotWaUt4gGJtgpv',
+            '_route' => 'generated::HNnjiL5eCOykayHE',
           ),
           1 => NULL,
           2 => 
@@ -216,7 +216,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::e6vnClLS25dwAO9a',
+            '_route' => 'generated::yJhJbFEDLHM9Wz50',
           ),
           1 => NULL,
           2 => 
@@ -735,7 +735,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/elfinder/(?|popup/([^/]++)(*:34)|filepicker/([^/]++)(*:60))|/livewire/preview\\-file/([^/]++)(*:100)|/post(?|/([^/]++)(*:125)|s/(?|category/([^/]++)(*:155)|author/([^/]++)(*:178)|tag/([^/]++)(*:198)))|/([^/]++)(*:217)|/admin/p(?|a(?|ssword/reset/([^/]++)(*:261)|ge/([^/]++)/edit(*:285))|ost/([^/]++)/edit(*:311)))/?$}sDu',
+      0 => '{^(?|/elfinder/(?|popup/([^/]++)(*:34)|filepicker/([^/]++)(*:60))|/livewire/preview\\-file/([^/]++)(*:100)|/post(?|/([^/]++)(*:125)|s/(?|category/([^/]++)(*:155)|author/([^/]++)(*:178)|tag/([^/]++)(*:198)))|/([^/]++)(*:217)|/admin/p(?|a(?|ssword/reset/([^/]++)(*:261)|ge/([^/]++)/edit(*:285))|ost/([^/]++)/edit(*:311))|/(.*)(*:325))/?$}sDu',
     ),
     3 => 
     array (
@@ -989,6 +989,29 @@ app('router')->setCompiledRoutes(
           3 => NULL,
           4 => false,
           5 => false,
+          6 => NULL,
+        ),
+      ),
+      325 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::yqb4XFBWl55GOC84',
+          ),
+          1 => 
+          array (
+            0 => 'fallbackPlaceholder',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
           6 => NULL,
         ),
         1 => 
@@ -1347,7 +1370,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::CIP1Y3Hpb7bsSfyM' => 
+    'generated::RkT8K28jU8FXTMtI' => 
     array (
       'methods' => 
       array (
@@ -1359,7 +1382,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
-        'as' => 'generated::CIP1Y3Hpb7bsSfyM',
+        'as' => 'generated::RkT8K28jU8FXTMtI',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1375,7 +1398,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::EHotWaUt4gGJtgpv' => 
+    'generated::HNnjiL5eCOykayHE' => 
     array (
       'methods' => 
       array (
@@ -1387,7 +1410,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
-        'as' => 'generated::EHotWaUt4gGJtgpv',
+        'as' => 'generated::HNnjiL5eCOykayHE',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1458,7 +1481,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::e6vnClLS25dwAO9a' => 
+    'generated::yJhJbFEDLHM9Wz50' => 
     array (
       'methods' => 
       array (
@@ -1477,7 +1500,7 @@ app('router')->setCompiledRoutes(
 
                     return \\Illuminate\\Support\\Facades\\View::file(\'/Users/michaelbutler/Herd/larablog-master/vendor/laravel/framework/src/Illuminate/Foundation/Configuration\'.\'/../resources/health-up.blade.php\');
                 }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000006d10000000000000000";}}',
-        'as' => 'generated::e6vnClLS25dwAO9a',
+        'as' => 'generated::yJhJbFEDLHM9Wz50',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2786,6 +2809,45 @@ app('router')->setCompiledRoutes(
       ),
       'wheres' => 
       array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::yqb4XFBWl55GOC84' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => '{fallbackPlaceholder}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:76:"function() {
+    return "Sorry. We do not know what you are looking for.";
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000006dd0000000000000000";}}',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::yqb4XFBWl55GOC84',
+      ),
+      'fallback' => true,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+        'fallbackPlaceholder' => '.*',
       ),
       'bindingFields' => 
       array (

@@ -162,7 +162,7 @@
                     <h6 class="mb-4">Social Links</h6>
                     <ul class="list-unstyled footer-list">
 
-                        {{-- @if ( site_social_links()->facebook_url )
+                        @if ( site_social_links()->facebook_url )
                             <li>
                                 <a target="_blank" href="{{ site_social_links()->facebook_url }}">Facebook</a>
                             </li>
@@ -184,7 +184,7 @@
                             <li>
                                 <a target="_blank" href="{{  site_social_links()->linkedin_url }}">Linkedin</a>
                             </li>
-                        @endif --}}
+                        @endif
 
                     </ul>
                 </div>

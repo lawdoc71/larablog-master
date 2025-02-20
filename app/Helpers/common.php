@@ -25,12 +25,12 @@ if( !function_exists('settings') ){
 /**
  * Site Social Links
  */
-// if( !function_exists('site_social_links') ){
-//     function site_social_links(){
-//         $links = SiteSocialLink::take(1)->first();
-//         if( !is_null($links) ){ return $links; }
-//     }
-// }
+if( !function_exists('site_social_links') ){
+    function site_social_links(){
+        $links = SiteSocialLink::take(1)->first();
+        if( !is_null($links) ){ return $links; }
+    }
+}
 
 /**
  * Dynamic Navigation menus

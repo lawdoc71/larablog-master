@@ -31,7 +31,7 @@ class Settings extends Component
         $settings = GeneralSetting::take(1)->first();
 
         //Populate Site Social Links
-        // $site_social_links = SiteSocialLink::take(1)->first();
+        $site_social_links = SiteSocialLink::take(1)->first();
 
         if( !is_null($settings) ){
             $this->site_title = $settings->site_title;
@@ -41,12 +41,12 @@ class Settings extends Component
             $this->site_meta_description = $settings->site_meta_description;
         }
 
-        // if( !is_null($site_social_links) ){
-        //     $this->facebook_url = $site_social_links->facebook_url;
-        //     $this->instagram_url = $site_social_links->instagram_url;
-        //     $this->linkedin_url = $site_social_links->linkedin_url;
-        //     $this->twitter_url = $site_social_links->twitter_url;
-        // }
+        if( !is_null($site_social_links) ){
+             $this->facebook_url = $site_social_links->facebook_url;
+             $this->instagram_url = $site_social_links->instagram_url;
+             $this->linkedin_url = $site_social_links->linkedin_url;
+             $this->twitter_url = $site_social_links->twitter_url;
+         }
     }
 
     public function updateSiteInfo(){
@@ -108,15 +108,23 @@ class Settings extends Component
         );
 
         if( !is_null($site_social_links) ){
+
             $query = $site_social_links->update($data);
-        }else{
+
+        } else {
+
             $query = SiteSocialLink::create($data);
+            
         }
 
         if( $query ){
-            $this->dispatch('showToastr',['type'=>'success','message'=>'Site Social Links have been successfully updated.']);
-        }else{
+
+            $this->dispatch('showToastr',['type'=>'success','message'=>'Site Social Links successfully updated.']);
+
+        } else {
+
             $this->dispatch('showToastr',['type'=>'error','message'=>'Something went wrong.']);
+
         }
     }
 
