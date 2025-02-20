@@ -72,3 +72,12 @@ Route::prefix('admin')->name('admin.')->group(function(){
 
      });
 });
+
+/**
+ * * fallback route for non-existing routes
+ * Add a back or home button for user to return to defined route.
+ * Add a error page....
+ */
+Route::fallback(function() {
+    return "Sorry. We do not know what you are looking for.";
+});
